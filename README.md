@@ -46,4 +46,7 @@ To get a note by the id use this address
 ```sh
 http://localhost:8080/api/notes/:id
 ```
+
+To close the application just focus on the command prompt running it and hit ```Ctrl+C```
+
 [node]: <https://nodejs.org/>
