@@ -1,24 +1,13 @@
 // server.js
 
-// BASE SETUP
-// =============================================================================
 
-// call the packages we need
-var express    = require('express');        // call express
+var express    = require('express');        
 var fs = require('fs');
 var notesJson = require('./notes.json');
 var XMLHttpRequest = require('XMLHttpRequest').XMLHttpRequest
-var app        = express();                 // define our app using express
+var app        = express();                 
 var bodyParser = require('body-parser');
 const util = require('util');
-
-
-// configure app to use bodyParser()
-// this will let us get the data from a POST
-//app.use(bodyParser.urlencoded({ extended: true }));
-//app.use(bodyParser.json());
-
-
 
 var port = process.env.PORT || 8080;       
 
